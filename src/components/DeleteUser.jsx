@@ -11,6 +11,8 @@ const DeleteUser = () => {
       .then((response) => console.log(response, 'Success Update'))
       .catch((error) => console.log(error));
   };
+
+  console.log('Update')
   
   return (
     <div>
