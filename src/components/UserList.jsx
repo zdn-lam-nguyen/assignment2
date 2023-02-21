@@ -18,7 +18,7 @@ const UserList = () => {
           <p>
             {user.first_name} {user.last_name}
           </p>
-          <img src={user.avatar} alt="User Avatar" />
+          <img src={user.avatar} alt="User Avatar 1" />
         </div>
       ))}
     </div>
