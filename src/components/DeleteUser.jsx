@@ -8,7 +8,7 @@ const DeleteUser = () => {
     event.preventDefault();
     axios
       .delete(`https://reqres.in/api/users/${userId}`)
-      .then((response) => console.log(response, 'Success'))
+      .then((response) => console.log(response, 'Success Update'))
       .catch((error) => console.log(error));
   };
   
