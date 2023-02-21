@@ -10,13 +10,10 @@ const DeleteUser = () => {
       .then((response) => console.log(response, "Success Update"))
       .catch((error) => console.log(error));
   };
-<<<<<<< HEAD
   
-=======
 
   console.log("TEMP");
 
->>>>>>> Temp
   return (
     <div>
       <h2>Delete User</h2>
