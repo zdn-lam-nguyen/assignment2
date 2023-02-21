@@ -11,7 +11,7 @@ const DeleteUser = () => {
       .catch((error) => console.log(error));
   };
   
-  
+  console.log("hello moiju nguiwf");
   return (
     <div>
       <h2>Delete User</h2>
