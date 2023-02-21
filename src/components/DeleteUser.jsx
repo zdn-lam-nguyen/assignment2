@@ -1,16 +1,16 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 const DeleteUser = () => {
   const [userId, setUserId] = useState("");
-
 
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
       .delete(`https://reqres.in/api/users/${userId}`)
-      .then((response) => console.log(response, 'Success Update'))
+      .then((response) => console.log(response, "Success Update"))
       .catch((error) => console.log(error));
   };
+  
 
 console.log('123')
   
@@ -26,7 +26,7 @@ console.log('123')
             onChange={(event) => setUserId(event.target.value)}
           />
         </label>
-       
+
         <br />
         <button type="submit">Delete User</button>
       </form>

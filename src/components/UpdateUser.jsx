@@ -15,7 +15,7 @@ const UpdateUser = () => {
       .then((response) => console.log(response))
       .catch((error) => console.log(error));
   };
-  
+
   return (
     <div>
       <h2>Update User</h2>
