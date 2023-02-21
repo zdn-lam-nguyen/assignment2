@@ -12,7 +12,7 @@ const DeleteUser = () => {
   };
   
 
-  console.log("TEMP");
+  console.log("TEMP"); 
 
   return (
     <div>
