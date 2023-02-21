@@ -12,7 +12,7 @@ const DeleteUser = () => {
       .catch((error) => console.log(error));
   };
 
-
+console.log('123')
   
   return (
     <div>
