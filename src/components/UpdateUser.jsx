@@ -1,4 +1,5 @@
-import React from "react";
+import axios from "axios";
+import React, { useState } from "react";
 
 const UpdateUser = () => {
   const [userId, setUserId] = useState("");
