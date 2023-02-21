@@ -18,11 +18,7 @@ const UserList = () => {
           <p>
             {user.first_name} {user.last_name}
           </p>
-<<<<<<< HEAD
           <img src={user.avatar} alt="User Avatar 1" />
-=======
-          <img src={user.avatar} alt="User Avatar 2" />
->>>>>>> 7eecb72f1478421aff00c0b9f38a4b3377f65fcc
         </div>
       ))}
     </div>
