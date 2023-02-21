@@ -16,7 +16,7 @@ const UpdateUser = () => {
       .catch((error) => console.log(error));
   };
 
-  console.log("asd");
+  console.log("s");
 
   return (
     <div>
