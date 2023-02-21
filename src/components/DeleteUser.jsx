@@ -12,7 +12,11 @@ const DeleteUser = () => {
       .catch((error) => console.log(error));
   };
 
+<<<<<<< HEAD
   console.log('Duong');
+=======
+  console.log('Update')
+>>>>>>> cab40404487e6e5f357aac6f6fee9fb98cd116ac
   
   return (
     <div>
