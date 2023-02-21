@@ -16,13 +16,10 @@ const UpdateUser = () => {
       .catch((error) => console.log(error));
   };
 
-<<<<<<< HEAD
   console.log("main")
   
-=======
   console.log("saa");
 
->>>>>>> Temp
   return (
     <div>
       <h2>Update User</h2>
